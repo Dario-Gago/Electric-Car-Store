@@ -65,6 +65,7 @@ main > article > img{
     width: 50%;
 }
 main > article > button{
+    padding: 1em;
     background-color: #5652a2;
     color: white;
 }
