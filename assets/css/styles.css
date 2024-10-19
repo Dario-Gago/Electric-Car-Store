@@ -87,7 +87,9 @@ main > article > button{
         flex-direction: row;
     }
     main > article{
+        align-content: center;
         width: 25%;
+       
 
     }
     .footer-m{
