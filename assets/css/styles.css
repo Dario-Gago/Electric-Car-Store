@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .aside-f{
     grid-area: aside-f;
@@ -36,6 +37,15 @@
     grid-area: aside-s;
     text-align: center;
     background-color: #5652a2;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.options > p{
+    cursor: pointer;
+    display: inline;
 }
 .aside-s > footer{
     padding: 2em;
